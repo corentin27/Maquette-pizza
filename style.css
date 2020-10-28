@@ -1,0 +1,252 @@
+        @font-face {
+            src: url("/assets/font/amaticsc.woff2");
+            font-family: "fontamtics";
+        }
+
+        * {
+            box-sizing: border-box;
+            font-family: 'fontamtics', Times, serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+
+        main {
+            width: 100%;
+            font-size: 1.2rem;
+        }
+
+        /* Haeder */
+        .nav1 {
+            width: 100%;
+            height: 4rem;
+            display: flex;
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.514);
+            align-items: center;
+            z-index: 5;
+        }
+
+        ul {
+            padding: 10px;
+            word-spacing: 1.5rem;
+            display: inline;
+        }
+
+        li,
+        a {
+            border: 1px blue;
+            color: white;
+            display: inline;
+            font-size: 1.5rem;
+        }
+
+        #imgHeader {
+            background: url("assets/img/pizza.jpg") center / cover no-repeat;
+            height: 80vh;
+            display: flex;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .h1 h1 {
+            color: white;
+            text-align: center;
+            font-size: 8rem;
+            margin: 0;
+            font-weight: 200;
+        }
+
+        .let {
+            text-align: center;
+            margin: 0;
+            color: white;
+            font-size: 3rem;
+            background-color: black;
+            padding: 10px;
+        }
+
+        .imgBottom {
+            margin: 10px;
+            padding: 4px;
+            font-size: 2rem;
+            color: white;
+            background-color: black;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+
+
+
+
+
+
+        /* Main Menu */
+        h2 {
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            padding: 20px;
+            font-size: 4rem;
+        }
+
+        section {
+            padding: 0 18rem;
+        }
+
+        #menu {
+            background-color: black;
+            padding: 5rem;
+        }
+
+        #menu>h3,
+        h2 {
+            font-weight: 600;
+        }
+
+        #menu-list {
+            width: 70%;
+            height: 50%;
+            margin: 0 auto 0 auto;
+            color: black;
+            background-color: white;
+        }
+
+        .container {
+            padding: 1.3rem;
+        }
+
+        .navMenu {
+            width: 100%;
+            justify-content: space-around;
+            display: flex;
+        }
+
+        .bouton {
+            color: white;
+            background-color: black;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            padding: 1em;
+            border: black 1px solid;
+            font-size: 2rem;
+        }
+
+        .bouton:hover {
+            background-color: red;
+        }
+
+        .bloc {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            border-bottom: 1px solid rgba(0, 0, 0, 0.514);
+        }
+
+        .bloc:last-child {
+            border: none;
+        }
+
+        .hot {
+            background-color: red;
+            color: white;
+            padding: 0.2rem;
+            border-radius: 5px 5px 5px 5px;
+        }
+
+        .new {
+            background-color: gray;
+            padding: 0.2rem;
+            border-radius: 5px 5px 5px 5px;
+        }
+
+
+
+
+
+
+
+        /* Main SECTION About  */
+
+        #about {
+            background-color: brown;
+            position: relative;
+        }
+
+        .chief {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .oval {
+            width: 6rem;
+            height: 4rem;
+            border-radius: 3rem/2rem;
+        }
+
+        .aboutHours {
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        .aboutHours p {
+            width: 50%;
+            margin-bottom: 2rem;
+        }
+
+        /* Main IMG Maps */
+        #map {
+            background-image: url("assets/img/map.jpg");
+            height: 700px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        /* Main Contact */
+        #contact {
+            background-color: gray;
+            padding-bottom: 5rem
+        }
+        .darkBack {
+            margin: 10px;
+            padding: 4px;
+            color: white;
+            background-color: black;
+        }
+
+        input,textarea {
+            margin-top: 20px;
+            padding: 1.5rem;
+            display: block;
+            width: 100%;
+            font-size: 1.5rem;
+        }
+
+        footer {
+            height: 130px;
+            padding-top: 1rem;
+            text-align: center;
+            background-color: rgb(0, 0, 0);
+            font-family: none;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: rgb(255, 255, 255);
+        }
